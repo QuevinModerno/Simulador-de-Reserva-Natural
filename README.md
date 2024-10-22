@@ -23,13 +23,16 @@ Create Animal:
 
 animal <species> <row> <col>: Create a specific animal at the given coordinates.
 Example: animal c 3 5 creates a rabbit at row 3, column 5.
+
 Feed Animal:
 
 feed <row> <col> <nutritional points> <toxicity points>: Feed the animal at the given position.
 Example: feed 3 5 5 0 feeds the animal at position (3,5) with 5 nutritional points and 0 toxicity.
+
 Remove Food:
 
 nofood <row> <col>: Remove food from the given coordinates.
+
 Advance Time:
 
 n <N>: Advance the simulation by N time steps.
@@ -40,4 +43,5 @@ For a full list of commands, refer to the project documentation.
 
 # Key Concepts
 Polymorphism: The project makes extensive use of polymorphism to manage different species of animals and types of food, allowing for varied behaviors within a unified interface.
+
 Memory Management: The simulator dynamically creates and deletes animals and food during runtime, ensuring proper memory management and avoiding memory leaks.
